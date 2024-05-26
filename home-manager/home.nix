@@ -21,6 +21,11 @@
 
   programs.home-manager.enable = true;
   programs.git.enable = true;
+  programs.yazi = {
+    enable = true;
+    # catppuccin.enable = true;
+    enableZshIntegration = true;
+  };
 
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";

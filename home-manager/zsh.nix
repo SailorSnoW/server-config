@@ -12,5 +12,6 @@
       expireDuplicatesFirst = true;
       save = 512;
     };
+    initExtra = "fastfetch";
   };
 }
