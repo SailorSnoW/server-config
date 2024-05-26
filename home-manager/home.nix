@@ -12,7 +12,7 @@
   };
 
   home = {
-    snow = "snow";
+    username = "snow";
     homeDirectory = "/home/snow";
   };
 
